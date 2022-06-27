@@ -1,6 +1,6 @@
 import os
 
-previousIp
+previousIp = '192.168.1.5'
 
 externalIP  = os.popen('curl -s https://ifconfig.me').readline()
 
